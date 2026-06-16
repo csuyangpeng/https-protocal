@@ -1,0 +1,5 @@
+certs/*.key
+certs/*.crt
+certs/rootCA.pem
+frontend/node_modules/
+frontend/dist/

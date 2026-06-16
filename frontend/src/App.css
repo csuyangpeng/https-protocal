@@ -1,0 +1,78 @@
+.app {
+  max-width: 640px;
+  margin: 0 auto;
+  padding: 48px 24px;
+  text-align: center;
+}
+
+.subtitle {
+  color: #666;
+  margin-bottom: 32px;
+}
+
+.card {
+  background: #f5f5f5;
+  border-radius: 8px;
+  padding: 24px;
+  margin-bottom: 24px;
+}
+
+.card h2 {
+  margin-top: 0;
+  font-size: 1rem;
+  color: #555;
+}
+
+.message {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: #1a7f37;
+}
+
+.status {
+  color: #666;
+}
+
+.status.error {
+  color: #cf222e;
+}
+
+.endpoints {
+  list-style: none;
+  padding: 0;
+  text-align: left;
+  font-size: 0.9rem;
+  color: #444;
+}
+
+.endpoints li {
+  margin-bottom: 8px;
+}
+
+.endpoints code {
+  background: #eee;
+  padding: 2px 6px;
+  border-radius: 4px;
+}
+
+@media (prefers-color-scheme: dark) {
+  .subtitle {
+    color: #aaa;
+  }
+
+  .card {
+    background: #2a2a2a;
+  }
+
+  .card h2 {
+    color: #bbb;
+  }
+
+  .endpoints {
+    color: #ccc;
+  }
+
+  .endpoints code {
+    background: #333;
+  }
+}
